@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Nick Resume</title>
+        <style>
+            ul {
+            list-style-type:none;
+            break-inside: avoid;
+            page-break-inside: avoid;
+              columns: 3;
+              -webkit-columns: 3;
+              -moz-columns: 3;
+            }
+            .summary{
+                columns: 1;
+                list-style-type:disc 
+            }
+          </style>
+    </head>
+    <body>
+        <h1>Nick H - Devops Engineer (US Citizen)</h1>
+        <p>Corona, CA</br>
+            hnikhi@gmail.com -- 310-210-4559 </p>
+
+        <h2>Key Skills/Technologies</h2>
+
+        <ul>
+        <li>Kubernetes</li>
+        <li>Docker</li>
+        <li>AWS</li>
+        <li>Azure</li>
+        <li>Terraform</li>
+        <li>Nginx</li>
+        <li>Ingress</li>
+        <li>Python</li>
+        <li>Bash</li>
+        <li>Powershell</li>
+        <li>Azure Devops</li>
+        <li>Flux</li>
+        <li>Argo CD</li>
+        <li>Jenkins</li>
+        <li>Jira</li>
+        <li>Puppet</li>
+        <li>Config Management</li>
+        <li>Miro</li>
+        <li>CloudFormation</li>
+        <li>Ansible</li>
+        <li>Git</li>
+        <li>Confluence</li>
+        <li>Saltstack</li>
+        <li>Github Actions</li>
+        <li>Linux</li>
+        <li>Gradle</li>
+        <li>.Net builds</li>
+        <li>Gitlab</li>
+        <li>MacOS</li>
+        <li>Cloud Security</li>
+        <li>Java builds</li>
+        <li>Windows Server</li>
+        <li>Cloud Migration</li>
+        <li>AKS</li>
+        <li>EKS</li>
+        <li>MSBuild</li>
+        </ul>
+
+        <h2>Summary</h2>
+        <ul class = "summary">
+            <li>Ten plus years of IT Industry experience with Configuration Management, Build Engineering and DevOps </li>
+            <li>Devops and Cloud experience along with Kubernetes Orchesration and Docker container experience</li>
+            <li>Extensive experience in using Build Automation, Deployment tools and Continuous Integration experience using tools like Jenkins </li>
+            <li>Experience with Github Actions, Gitlab CI</li>
+            <li>Experience setting up infrastructure via IAC in AWS and Azure </li>
+            <li>Experience developing Puppet modules</li>
+            <li>Experience setting up infrastructure via IAC in AWS and Azure </li>
+            <li>Extensive experience with AWS offerings - EC2, RDS, Route53, AMS, VPC, Lambda</li>
+            <li>Strong experience in Telecom, Retail, Manufacturing and Financial domains </li>
+            <li>Experience setting up patching schedules for cloud VMS </li>
+            <li>Experience with Terraform and CloudFormation </li>
+            <li>Good analytical, problem solving and communication skills. Ability to work either independently with little or no supervision or as a member of a team. </li>
+        </ul>
+
+        <h2>Education</h2>
+        <ul class = "summary">
+            <li>Master of Science: Systems Engineering from California State University Fullerton GPA:3.46 </li>
+            <li>Bachelor of Science: Electrical Engineering from California State University Fullerton GPA:3.24</li>
+        </ul>
+
+        <h2>Experience</h2>
+        <h3>Reliance Technology Services -- Nov 19 - Present <br>
+        Devops Engineer</h3>
+        <ul class = "summary">
+            <li>	Deployed Azure Infrastructure using terraform </li>
+            <li>	Implemented AWS Infrastructure as code from scratch </li>
+            <li>	Implemented Gitlab Kubernetes install for the Data Team </li>
+            <li>	Helped with rearchitecting the AWS hybrid networking </li>
+            <li>	Helped with migration efforts to both Azure and AWS clouds </li>
+            <li>	Helped the company with using cloud assessment tools </li>
+            <li>	Implemented D2IQ Kubernetes POC for the Data Team </li>
+            <li>	Worked on App rationalization efforts to help with migration strategies </li>
+            <li>	Implemented Code pipeline - CI/CD for infrastructure as code in AWS </li>
+        </ul>
+
+        <hr>
+
+        <h3>Ebay - Contract -- Jun 19 - Nov 19 <br>
+            Devops Engineer</h3>
+            <ul class = "summary">
+                <li>	Created infrastructure for their Azure Environment </li>
+                <li>	Used Terraform for infrastructure as code for VMs, networking, storage, etc. </li>
+                <li>	Used the Azure portal to make additional changes to the infrastructure </li>
+                <li>	Ran puppet modules as part of the post install to finish VM provisioning </li>
+                <li>	Used Octopus deploy to deploy applications, windows services </li>
+                <li>	Registered and deregistered services in consul as part of the deployment scripts </li>
+                <li>	Added health checks as part of the deployment process </li>
+            </ul>
+
+        <h3>2nd Watch - Contract -- Jun 18 - Jun 19 <br>
+            Cloud Engineer</h3>
+            <ul class = "summary">
+                <li>	Created and tested Puppet modules for their AWS infrastructure </li>
+                <li>	Wrote Serverspec tests for the Puppet modules</li>
+                <li>	Used test kitchen extensively to test out the modules for different environments</li>
+                <li>	Created AWS infrastructure environments with Terraform</li>
+                <li>	Created AWS infrastructure environments with Cloudformation including setting up Cloudwatch and load balancer logging via code</li>
+                <li>	Installed and setup N2WS CPM backup for cloud resources</li>
+                <li>	Installed and setup Trend Micro Anti-Virus protection for Aws environment</li>
+                <li>	Created entire infra structure stack via cloudformation as well as setup cloud watch monitoring, logging, backup and virus protection.</li>
+                <li>	Created a High Level Design Document (HLD) as well as Detailed Design Documents (DLD) </li>
+                <li>	Create Cloudformation templates for rds instances, load balancers, etc.</li>
+                <li>	Worked with AMS team to deploy infrastructure via AMS (Amazon Managed services)</li>
+            </ul>
+
+        <h3>NASA - Contract -- Dec 17 - May 18 <br>
+            Devops Engineer</h3>
+            <ul class = "summary">
+                <li>    Performed code refactoring for Salt modules for Mission Control servers</li>
+                <li>	Supported Aws infra structure for the Flight team</li>
+                <li>	Created ECS cluster to host visitor ids application</li>
+                <li>	Added load balancers, resized volumes and performed various aws related infra upgrades as needed</li>
+                <li>	Helped with supporting the setup of redundant DC servers with HA proxy</li>
+                <li>	Deployed new Vmware ESX servers via Vsphere</li>
+                <li>	Performed bootstrapping operations for ESX as well as AWS servers</li>
+            </ul>
+
+        <h3>CDG, A Boeing Company  - Contract -- Jun 17 - Nov 17 <br>
+            Devops Engineer</h3>
+            <ul class = "summary">
+                <li>	Developed CI/CD pipelines with Jenkins, Gradle, Artifactory and Ansible</li>
+                <li>	Evaluating Saltstack for automation use cases at CDG</li>
+                <li>	Setting up server log rotation using saltstack</li>
+                <li>	Developed yaml salt scripts for configuration management use cases</li>
+                <li>	Developed Standards for CI/CD Jenkins jobs </li>
+                <li>	Explored patching solutions</li>
+                <li>	Explored Kafka implementation viability</li>
+                <li>	Installed and verifed Kafka implementation</li>
+            </ul>
+
+
+            <hr>
+
+        <h3>Intuit  - Contract -- Mar 17 - Jun 17 <br>
+            Devops Engineer</h3>
+            <ul class = "summary">
+                <li>	Managing servers in two data centers totaling to forty thousand servers. </li>
+                <li>	Using Salt Stack to help with reporting on these servers.</li>
+                <li>	Using Salt to remediate these servers. </li>
+                <li>	Using Salt to maintain and query these servers, and restore to desired state.</li>
+                <li>	Writing bash scripts in conjunction with salt stack to modify configurations and help with reporting.</li>
+                <li>	Creating reports on the status of the different servers in the different zones.</li>
+                <li>	Used python scripts to generate host name/ips reports.</li>
+                <li>	Fixed rsyslog ips to ensure logs are forwarded and available in Splunk</li>
+            </ul>
+
+        <h3>Thermofisher  - Contract -- Jul 16 - Feb 17 <br>
+            Cloud Engineer</h3>
+            <ul class = "summary">
+                <li>	AWS cloud migration from datacenter</li>
+                <li>	VPC design - private and public subnets, DB subnets, subnet calculation</li>
+                <li>	Involved in planning backup strategies</li>
+                <li>	Design AWS architecture for different teams</li>
+                <li>	Setup IAM roles, groups and policies for users</li>
+                <li>	Attended Docker/ECS workshop</li>
+                <li>	Attended Cloudhealth workshop </li>
+                <li>	Explored amazon workspaces for usage by dev teams</li>
+                <li>	Set up IAM and S3 permissions to run Apache Spark Clusters </li>
+                <li>	Used the Databricks portal to run the spark clusters</li>
+                <li>	Used bash script to backup EBS snapshots</li>
+                <li>	Promoted use of Opswork for the dev team for automation and assigned the Opswork role the necessary permissions as required by the dev team. </li>                                
+            </ul>
+
+        <h3>Nike  - Contract -- Mar 16 - Jul 16 <br>
+            Devops Engineer</h3>
+            <ul class = "summary">
+                <li>	Used puppet to manage the on-prem and cloud infrastructure</li>
+                <li>	Developed puppet modules for custom app installations</li>
+                <li>	Puppet module development for SSL upgrades</li>
+                <li>	Created a plan for the Spacewalk packages sync schedule for the different hosts</li>
+                <li>	Created Spacewalk host to manage packages on Redhat Linux systems</li>
+                <li>	Setup IIS servers in AWS</li>
+                <li>	Setup RDS servers in AWS</li>
+                <li>	Setup Load balancers for the IIS servers</li>
+                <li>	Audited Aws incoming and outgoing rules for security groups</li>
+                <li>	Used Vagrant and Virtualbox setup to test puppet modules before pushing module code to git</li>
+                <li>	Used puppet console to assign node groups and classes for different hosts</li>
+                <li>	Installed Newrelic server agents on hosts and monitored them from the newrelic site</li>
+                <li>	Installed Splunk agents and monitors on Splunk hosts</li>
+                <li>	Upgraded SSL certificate for Artifactory using puppet module</li>
+            </ul>
+
+
+        <h3>Bank of America  - Contract -- Nov 15 - Mar 16 <br>
+            Devops Engineer</h3>
+            <ul class = "summary">
+                <li>	On board new applications to the build system</li>
+                <li>	Used IBM Ubuild and Udeploy tool to build and deploy artifacts to different environments</li>
+                <li>	Trigger various build tools such as MSBuild, Maven, and via Ubuild</li>
+                <li>	Setup up different build configurations required to onboard the different apps</li>
+                <li>	Setup deployment configurations to deploy to different environments</li>
+                <li>	Accessed the source code from the various repositories such as SVN, Clear Case, RTC and Perforce and build the code via the Ubuild tool</li>
+                <li>	Checked the TFS server for the right paths and make changes to the build configuration in Ubuild to ensure proper running of builds and secondary processes</li>
+                <li>	Setup Sonar scan tests and configured any secondary build processes as needed</li>
+                <li>	Use the Urbancode release tool as needed</li>
+            </ul>
+
+<hr>
+
+        <h3>T-mobile  - Contract -- Jun 15 - Nov 16 <br>
+            Cloud Engineer</h3>
+            <ul class = "summary">
+                <li>	Performed a comparison study of the major configuration management tools</li>
+                <li>	Performed detailed analysis of use cases for Chef, Puppet, Salt and Ansible</li>
+                <li>	Provisioned instances in EC2 via console as well as cloud formation</li>
+                <li>	Automated puppet master and client installation via user data scripts</li>
+                <li>	Customized puppet manifests and modules for Apache, Cassandra and AEM</li>
+                <li>	Created Architecture diagrams for Puppet Servers, agents and VPC distribution</li>
+                <li>	Lead Off-shore team to assist with provisioning projects</li>
+                <li>	Created Runbooks for POC and various environments creation</li>
+                <li>	Looked into Docker containers for the app infrastructure </li>
+                <li>	Researched Ansible to help maintain cloud infrastructure</li>
+            </ul>
+
+        <h3>Microsoft  - Contract -- Mar 15 - Jun 15 <br>
+            Devops Engineer</h3>
+            <ul class = "summary">
+                <li>	Responsible for managing over all SCM tasks and build infrastructure for Microsoft Azure Cloud services Api Apps team</li>
+                <li>	Performed merges and rebases in Git from Dev branch to Integration/Origin branch</li>
+                <li>	Worked with developers to run various XUnit tests.</li>
+                <li>	Run the static analysis tools like styleCop on the code to ensure the development is in compliance </li>
+                <li>	Wrote MSBuild scripts to build the cs projects. </li>
+                <li>	Setup githooks for post-commit build triggers</li>
+                <li>	Setup Jenkins to perform nightly builds as well as polled the git repo for changes</li>
+                <li>	Used Power Shell to write test scripts to run xnit tests which was invoked by Jenkins through a batch script.</li>                        
+            </ul>
+
+        <h3>Amresco  - Contract -- Oct 14 - Feb 15 <br>
+            Build Engineer</h3>
+            <ul class = "summary">
+                <li>	Created version control Labels, and branches</li>
+                <li>	Performed merges and Integration in Perforce from Dev branch to Integration / release branch.</li>
+                <li>	Worked with developers to run various XUnit tests.</li>
+                <li>	Run the static analysis tools like styleCop on the code to ensure the development is in compliance </li>
+                <li>	Used Power Shell to communicate to the Windows Phone and for collecting logs.</li>
+                <li>	Compile the Simulator project using MSBuild and conducted sanity tests.</li>                
+            </ul>
+
+        <h3>LADWP  - Full-time -- Jul 07 - Oct 14 <br>
+            SCM Analyst</h3>
+            <ul class = "summary">
+                <li>	Involved in System Test and Integration test for various internal projects.</li>
+                <li>	Created Builds and deployed builds to different environments based on requests.</li>
+                <li>	Maintained Dev/QA application environments to ensure all business rules, print logic and compliance issues are well-managed and documented prior to pushing to production.</li>
+                <li>	Linked and manipulated the databases, to fill in data, minimizing user error</li>
+                <li>	Executed SQL to modify the data in the tables for the various projects</li>             
+            </ul>
+
+    </body>
+
+</html>
