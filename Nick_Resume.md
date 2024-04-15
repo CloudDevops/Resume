@@ -7,13 +7,6 @@ hnikhi@gmail.com • +1 (310) 210-4559 Corona CA
 
 ---
 
-## Skills/Technologies
-
-General: Python, JavaScript, TypeScript, BASH \
-IAC: Terraform, Cloudformation, Bicep \
-Devops: Jenkins, AWS, Azure, Cloud Infrastructure, ADO, SaltStack, Docker, Kubernetes, Prometheus, Ansible, Github Actions \
-Other: Git, Android, Ubuild, UNIX, Splunk, Linux, Agile, Scrum, Databricks, ChatGPT, Gradle
-
 ## Executive Summary
 
 - Twelve plus years of IT Industry experience with Configuration Management, Build Engineering and DevOps using Git, Salt, JIRA, on Unix and Windows environments
@@ -29,6 +22,15 @@ Integration experience using tools like Jenkins
 - Experience with Terraform, Bicep and CloudFormation
 - Good analytical, problem solving, communication skills and ability to work either
 independently with little or no supervision or as a member of a team.
+
+
+## Skills/Technologies
+
+General: Python, JavaScript, TypeScript, BASH \
+IAC: Terraform, Cloudformation, Bicep \
+Devops: Jenkins, AWS, Azure, Cloud Infrastructure, ADO, SaltStack, Docker, Kubernetes, Prometheus, Ansible, Github Actions \
+Other: Git, Android, Ubuild, UNIX, Splunk, Linux, Agile, Scrum, Databricks, ChatGPT, Gradle
+
 
 ## Certifications
 
