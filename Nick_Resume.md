@@ -3,7 +3,7 @@
 
 # Devops Engineer
 
-hnikhi@gmail.com • +1 (310) 210-4559 Corona, CA 
+hnikhi@gmail.com • +1 (310) 210-4559 Corona CA 
 
 ---
 
