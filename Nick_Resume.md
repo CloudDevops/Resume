@@ -14,7 +14,7 @@ hnikhi@gmail.com • +1 (310) 210-4559 Corona CA
 - Extensive experience using Build Automation, Deployment tools and Continuous
 Integration experience using tools like Jenkins
 - Experience with Microsoft Azure
-- Experience in setting up infrastructure in AWS and Google Cloud
+- Experience setting up infrastructure in AWS and Google Cloud
 - Experience developing Puppet modules
 - Extensive experience with AWS offerings – EC2, RDS, Route53, AMS, VPC, Lambda
 - Strong experience in Telecom, Retail, Manufacturing and Financial domain
