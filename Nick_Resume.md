@@ -9,9 +9,10 @@ hnikhi@gmail.com • +1 (310) 210-4559 Corona CA
 
 ## Skills/Technologies
 
-| General | IAC | Devops | Other |
-| --- | --- | --- | --- |
-| Python, JavaScript, TypeScript, BASH | Terraform, Cloudformation, Bicep | Jenkins, AWS, Azure, Cloud Infrastructure, ADO, SaltStack, Docker, Kubernetes, Prometheus, Ansible, Github Actions | Git, Android, Ubuild, UNIX, Splunk, Linux, Agile, Scrum, Databricks, ChatGPT, Gradle |
+General: Python, JavaScript, TypeScript, BASH \
+IAC: Terraform, Cloudformation, Bicep \
+Devops: Jenkins, AWS, Azure, Cloud Infrastructure, ADO, SaltStack, Docker, Kubernetes, Prometheus, Ansible, Github Actions \
+Other: Git, Android, Ubuild, UNIX, Splunk, Linux, Agile, Scrum, Databricks, ChatGPT, Gradle
 
 ## Executive Summary
 
