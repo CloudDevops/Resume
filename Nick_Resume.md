@@ -11,7 +11,7 @@ hnikhi@gmail.com • +1 (310) 210-4559 Corona CA
 
 - Twelve plus years of IT Industry experience with Configuration Management, Build Engineering and DevOps using Git, Salt, JIRA, on Unix and Windows environments
 - Devops and Cloud experience along with Docker and Kubernetes container experience
-- Extensive experience in using Build Automation, Deployment tools and Continuous
+- Extensive experience using Build Automation, Deployment tools and Continuous
 Integration experience using tools like Jenkins
 - Experience with Microsoft Azure
 - Experience in setting up infrastructure in AWS and Google Cloud
