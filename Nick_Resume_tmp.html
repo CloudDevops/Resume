@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Nick_Resume.md</title>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+
+<style>
+/* https://github.com/microsoft/vscode/blob/master/extensions/markdown-language-features/media/markdown.css */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+body {
+	font-family: var(--vscode-markdown-font-family, -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif);
+	font-size: var(--vscode-markdown-font-size, 14px);
+	padding: 0 26px;
+	line-height: var(--vscode-markdown-line-height, 22px);
+	word-wrap: break-word;
+}
+
+#code-csp-warning {
+	position: fixed;
+	top: 0;
+	right: 0;
+	color: white;
+	margin: 16px;
+	text-align: center;
+	font-size: 12px;
+	font-family: sans-serif;
+	background-color:#444444;
+	cursor: pointer;
+	padding: 6px;
+	box-shadow: 1px 1px 1px rgba(0,0,0,.25);
+}
+
+#code-csp-warning:hover {
+	text-decoration: none;
+	background-color:#007acc;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.25);
+}
+
+body.scrollBeyondLastLine {
+	margin-bottom: calc(100vh - 22px);
+}
+
+body.showEditorSelection .code-line {
+	position: relative;
+}
+
+body.showEditorSelection .code-active-line:before,
+body.showEditorSelection .code-line:hover:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: -12px;
+	height: 100%;
+}
+
+body.showEditorSelection li.code-active-line:before,
+body.showEditorSelection li.code-line:hover:before {
+	left: -30px;
+}
+
+.vscode-light.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.15);
+}
+
+.vscode-light.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.40);
+}
+
+.vscode-light.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-dark.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.4);
+}
+
+.vscode-dark.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.60);
+}
+
+.vscode-dark.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-high-contrast.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 160, 0, 0.7);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 160, 0, 1);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:focus,
+input:focus,
+select:focus,
+textarea:focus {
+	outline: 1px solid -webkit-focus-ring-color;
+	outline-offset: -1px;
+}
+
+hr {
+	border: 0;
+	height: 2px;
+	border-bottom: 2px solid;
+}
+
+h1 {
+	padding-bottom: 0.3em;
+	line-height: 1.2;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table > thead > tr > th {
+	text-align: left;
+	border-bottom: 1px solid;
+}
+
+table > thead > tr > th,
+table > thead > tr > td,
+table > tbody > tr > th,
+table > tbody > tr > td {
+	padding: 5px 10px;
+}
+
+table > tbody > tr + tr > td {
+	border-top: 1px solid;
+}
+
+blockquote {
+	margin: 0 7px 0 5px;
+	padding: 0 16px 0 10px;
+	border-left-width: 5px;
+	border-left-style: solid;
+}
+
+code {
+	font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New", monospace, "Droid Sans Fallback";
+	font-size: 1em;
+	line-height: 1.357em;
+}
+
+body.wordWrap pre {
+	white-space: pre-wrap;
+}
+
+pre:not(.hljs),
+pre.hljs code > div {
+	padding: 16px;
+	border-radius: 3px;
+	overflow: auto;
+}
+
+pre code {
+	color: var(--vscode-editor-foreground);
+	tab-size: 4;
+}
+
+/** Theming */
+
+.vscode-light pre {
+	background-color: rgba(220, 220, 220, 0.4);
+}
+
+.vscode-dark pre {
+	background-color: rgba(10, 10, 10, 0.4);
+}
+
+.vscode-high-contrast pre {
+	background-color: rgb(0, 0, 0);
+}
+
+.vscode-high-contrast h1 {
+	border-color: rgb(0, 0, 0);
+}
+
+.vscode-light table > thead > tr > th {
+	border-color: rgba(0, 0, 0, 0.69);
+}
+
+.vscode-dark table > thead > tr > th {
+	border-color: rgba(255, 255, 255, 0.69);
+}
+
+.vscode-light h1,
+.vscode-light hr,
+.vscode-light table > tbody > tr + tr > td {
+	border-color: rgba(0, 0, 0, 0.18);
+}
+
+.vscode-dark h1,
+.vscode-dark hr,
+.vscode-dark table > tbody > tr + tr > td {
+	border-color: rgba(255, 255, 255, 0.18);
+}
+
+</style>
+
+<style>
+/* Tomorrow Theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+/* Original theme - https://github.com/chriskempson/tomorrow-theme */
+
+/* Tomorrow Comment */
+.hljs-comment,
+.hljs-quote {
+	color: #8e908c;
+}
+
+/* Tomorrow Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-deletion {
+	color: #c82829;
+}
+
+/* Tomorrow Orange */
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-meta,
+.hljs-link {
+	color: #f5871f;
+}
+
+/* Tomorrow Yellow */
+.hljs-attribute {
+	color: #eab700;
+}
+
+/* Tomorrow Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+	color: #718c00;
+}
+
+/* Tomorrow Blue */
+.hljs-title,
+.hljs-section {
+	color: #4271ae;
+}
+
+/* Tomorrow Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+	color: #8959a8;
+}
+
+.hljs {
+	display: block;
+	overflow-x: auto;
+	color: #4d4d4c;
+	padding: 0.5em;
+}
+
+.hljs-emphasis {
+	font-style: italic;
+}
+
+.hljs-strong {
+	font-weight: bold;
+}
+</style>
+
+<style>
+/*
+ * Markdown PDF CSS
+ */
+
+ body {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif, "Meiryo";
+	padding: 0 12px;
+}
+
+pre {
+	background-color: #f8f8f8;
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+	overflow-x: auto;
+	white-space: pre-wrap;
+	overflow-wrap: break-word;
+}
+
+pre:not(.hljs) {
+	padding: 23px;
+	line-height: 19px;
+}
+
+blockquote {
+	background: rgba(127, 127, 127, 0.1);
+	border-color: rgba(0, 122, 204, 0.5);
+}
+
+.emoji {
+	height: 1.4em;
+}
+
+code {
+	font-size: 14px;
+	line-height: 19px;
+}
+
+/* for inline code */
+:not(pre):not(.hljs) > code {
+	color: #C9AE75; /* Change the old color so it seems less like an error */
+	font-size: inherit;
+}
+
+/* Page Break : use <div class="page"/> to insert page break
+-------------------------------------------------------- */
+.page {
+	page-break-after: always;
+}
+
+</style>
+
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</head>
+<body>
+  <script>
+    mermaid.initialize({
+      startOnLoad: true,
+      theme: document.body.classList.contains('vscode-dark') || document.body.classList.contains('vscode-high-contrast')
+          ? 'dark'
+          : 'default'
+    });
+  </script>
+<h1 id="nick-h-us-citizen">Nick H (US Citizen)</h1>
+<h1 id="devops-engineer">Devops Engineer</h1>
+<blockquote>
+<p>hnikhi@gmail.com • +1 (310) 210-4559
+Corona, CA</p>
+</blockquote>
+<hr>
+<h2 id="skillstechnologies">Skills/Technologies</h2>
+<table>
+<thead>
+<tr>
+<th>General</th>
+<th>IAC</th>
+<th>Devops</th>
+<th>Other</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Python, JavaScript, TypeScript, BASH</td>
+<td>Terraform, Cloudformation, Bicep</td>
+<td>Jenkins, AWS, Azure, Cloud Infrastructure, ADO, SaltStack, Docker, Kubernetes, Prometheus, Ansible, Github Actions</td>
+<td>Git, Android, Ubuild, UNIX, Splunk, Linux, Agile, Scrum, Databricks, ChatGPT, Gradle</td>
+</tr>
+</tbody>
+</table>
+<h2 id="executive-summary">Executive Summary</h2>
+<ul>
+<li>Twelve plus years of IT Industry experience with Configuration Management, Build Engineering and DevOps using Git, Salt, JIRA, on Unix and Windows environments</li>
+<li>Devops and Cloud experience along with Docker and Kubernetes container experience</li>
+<li>Extensive experience in using Build Automation, Deployment tools and Continuous
+Integration experience using tools like Jenkins</li>
+<li>Experience with Microsoft Azure</li>
+<li>Experience in setting up infrastructure in AWS and Google Cloud</li>
+<li>Experience developing Puppet modules</li>
+<li>Extensive experience with AWS offerings – EC2, RDS, Route53, AMS, VPC, Lambda</li>
+<li>Strong experience in Telecom, Retail, Manufacturing and Financial domain</li>
+<li>Experience setting up patching schedules for cloud VMS</li>
+<li>Experience with Terraform, Bicep and CloudFormation</li>
+<li>Good analytical, problem solving, communication skills and ability to work either
+independently with little or no supervision or as a member of a team.</li>
+</ul>
+<h2 id="certifications">Certifications</h2>
+<ul>
+<li>Azure Fundamentals (AZ-900)</li>
+<li>Kubernetes and Cloud Native Associate (KCNA)</li>
+</ul>
+<h2 id="education--qualifications">Education &amp; Qualifications</h2>
+<ul>
+<li>Master of Science: Systems Engineering from California State University Fullerton GPA: 3.46</li>
+<li>Bachelor of Science: Electrical Engineering from California State University Fullerton GPA: 3.24 [Dean's List]</li>
+</ul>
+<h2 id="work-experience">Work Experience</h2>
+<h3 id="the-standard-devops-engineer-072022---present">The Standard (Devops Engineer, 07/2022 - present)</h3>
+<ul>
+<li>Create Bicep code for Azure Infrastructure</li>
+<li>Create Terraform for aws infrastructure</li>
+<li>Used Ekcstl to create eks clusters</li>
+<li>Create ADO yaml pipelines and templates</li>
+</ul>
+<h3 id="reliance-steel-devops-engineer-112019---072022">Reliance Steel (Devops Engineer, 11/2019 - 07/2022)</h3>
+<ul>
+<li>Headed the Azure Infrastructure as code efforts using terraform</li>
+<li>Implemented AWS Infrastructure as code from scratch</li>
+<li>Implemented Gitlab Kubernetes install for the Data Team</li>
+<li>Helped with rearchitecting the AWS hybrid networking</li>
+<li>Helped with migration efforts to both Azure and AWS clouds</li>
+<li>Helped the company with using cloud assessment tools</li>
+<li>Implemented D2IQ Kubernetes POC for the Data Team</li>
+<li>Worked on App rationalization efforts to help with our migration strategies</li>
+<li>Implemented Code pipeline - CI/CD for infrastructure as code in AWS</li>
+</ul>
+<h3 id="ebay-contract-devops-engineer-062019---112019">Ebay (contract) (Devops Engineer, 06/2019 - 11/2019)</h3>
+<ul>
+<li>Created infrastructure for their Azure infrastructure</li>
+<li>Used Terraform for infrastructure as code for VMs, networking, storage, etc.</li>
+<li>Used the Azure portal to make additional changes to the infrastructure</li>
+<li>Ran puppet modules as part of the post install to finish VM provisioning</li>
+<li>Used Octopus deploy to deploy applications, windows services</li>
+<li>Registered and deregistered services in consul as part of the deployment scripts</li>
+<li>Added health checks as part of the deployment process</li>
+</ul>
+<h3 id="2ndwatch-cloud-consultant-062018---062019">2ndwatch (Cloud Consultant, 06/2018 - 06/2019)</h3>
+<ul>
+<li>Created and tested Puppet modules for the client AWS infrastructure</li>
+<li>Wrote Serverspec tests for the Puppet modules</li>
+<li>Used test kitchen extensively to test out the modules for different environments</li>
+<li>Created AWS infrastructure environments with Terraform</li>
+<li>Created AWS infrastructure environments with Cloudformation including setting up Cloudwatch and load balancer logging via code</li>
+<li>Installed and setup N2WS CPM backup for cloud resources</li>
+<li>Installed and setup Trend Micro Anti-Virus protection for Aws environment</li>
+<li>Created entire infra structure stack via cloudformation as well as setup cloud watch monitoring, logging, backup and virus protection.</li>
+<li>Created a High Level Design Document (HLD) as well as Detailed Design Documents (DLD)</li>
+<li>Create Cloudformation templates for rds instances, load balancers, etc.</li>
+<li>Worked with AMS team to deploy infrastructure via AMS (Amazon Managed services)</li>
+</ul>
+<h3 id="nasa-contract-devops-engineer-122017---052018">NASA (contract) (Devops Engineer, 12/2017 - 05/2018)</h3>
+<ul>
+<li>Performed code refactoring for Salt modules for Mission Control servers</li>
+<li>Supported Aws infra structure for the Flight team</li>
+<li>Created ECS cluster to host visitor ids application</li>
+<li>Added load balancers, resized volumes and performed various aws related infra upgrades as needed</li>
+<li>Helped with supporting the setup of redundant DC servers with HA proxy</li>
+<li>Deployed new Vmware ESX servers via Vsphere</li>
+<li>Performed bootstrapping operations for ESX as well as AWS servers</li>
+</ul>
+<h3 id="cdg-boeing-contract-devops-engineer-062017---112017">CDG Boeing (contract) (Devops Engineer, 06/2017 - 11/2017)</h3>
+<ul>
+<li>Developed CI/CD pipelines with Jenkins, Gradle, Artifactory and Ansible</li>
+<li>Evaluating Saltstack for automation use cases at CDG</li>
+<li>Setting up server log rotation using saltstack</li>
+<li>Developed yaml salt scripts for configuration management use cases</li>
+<li>Developed Standards for CI/CD Jenkins jobs</li>
+<li>Explored patching solutions</li>
+<li>Explored Kafka implementation viability</li>
+<li>Installed and verifed Kafka implementation</li>
+</ul>
+<h3 id="intuit-contract-devops-engineer-032017---062017">Intuit (Contract) (Devops Engineer, 03/2017 - 06/2017)</h3>
+<ul>
+<li>Managing servers in two data centers totaling to forty thousand servers.</li>
+<li>Using Salt Stack to help with reporting on these servers.</li>
+<li>Using Salt to remediate these servers.</li>
+<li>Using Salt to maintain and query these servers, and restore to desired state.</li>
+<li>Writing bash scripts in conjunction with salt stack to modify configurations and help with reporting.</li>
+<li>Creating reports on the status of the different servers in the different zones.</li>
+<li>Used python scripts to generate host name/ips reports.</li>
+<li>Fixed rsyslog ips to ensure logs are forwarded and available in Splunk</li>
+</ul>
+<h3 id="thermofisher-contract-cloud-engineer-072016---022017">Thermofisher (Contract) (Cloud Engineer, 07/2016 - 02/2017)</h3>
+<ul>
+<li>AWS cloud migration from datacenter</li>
+<li>VPC design – private and public subnets, DB subnets, subnet calculation</li>
+<li>Involved in planning backup strategies</li>
+<li>Design AWS architecture for different teams</li>
+<li>Setup IAM roles, groups and policies for users</li>
+<li>Attended Docker/ECS workshop</li>
+<li>Attended Cloudhealth workshop</li>
+<li>Explored amazon workspaces for usage by dev teams</li>
+<li>Set up IAM and S3 permissions to run Apache Spark Clusters</li>
+<li>Used the Databricks portal to run the spark clusters</li>
+<li>Used bash script to backup EBS snapshots</li>
+<li>Promoted use of Opswork for the dev team for automation and assigned the Opswork role the necessary permissions as required by the dev team.</li>
+</ul>
+<h3 id="nike-contract-devops-engineer-032016---072016">Nike (Contract) (Devops Engineer, 03/2016 - 07/2016)</h3>
+<ul>
+<li>Used puppet to manage the on-prem and cloud infrastructure</li>
+<li>Developed puppet modules for custom app installations</li>
+<li>Puppet module development for SSL upgrades</li>
+<li>Created a plan for the Spacewalk packages sync schedule for the different hosts</li>
+<li>Created Spacewalk host to manage packages on Redhat Linux systems</li>
+<li>Setup IIS servers in AWS</li>
+<li>Setup RDS servers in AWS</li>
+<li>Setup Load balancers for the IIS servers</li>
+<li>Audited Aws incoming and outgoing rules for security groups</li>
+<li>Used Vagrant and Virtualbox setup to test puppet modules before pushing module code to git</li>
+<li>Used puppet console to assign node groups and classes for different hosts</li>
+<li>Installed Newrelic server agents on hosts and monitored them from the newrelic site</li>
+<li>Installed Splunk agents and monitors on Splunk hosts</li>
+<li>Upgraded SSL certificate for Artifactory using puppet module</li>
+</ul>
+<h3 id="nike-contract-devops-engineer-032016---072016">Nike (Contract) (Devops Engineer, 03/2016 - 07/2016)</h3>
+<ul>
+<li>Used puppet to manage the on-prem and cloud infrastructure</li>
+<li>Developed puppet modules for custom app installations</li>
+<li>Puppet module development for SSL upgrades</li>
+<li>Created a plan for the Spacewalk packages sync schedule for the different hosts</li>
+<li>Created Spacewalk host to manage packages on Redhat Linux systems</li>
+<li>Setup IIS servers in AWS</li>
+<li>Setup RDS servers in AWS</li>
+<li>Setup Load balancers for the IIS servers</li>
+<li>Audited Aws incoming and outgoing rules for security groups</li>
+<li>Used Vagrant and Virtualbox setup to test puppet modules before pushing module code to git</li>
+<li>Used puppet console to assign node groups and classes for different hosts</li>
+<li>Installed Newrelic server agents on hosts and monitored them from the newrelic site</li>
+<li>Installed Splunk agents and monitors on Splunk hosts</li>
+<li>Upgraded SSL certificate for Artifactory using puppet module</li>
+</ul>
+<h3 id="bank-of-america-contract-devops-engineer-032016---072016">Bank of America (Contract) (Devops Engineer, 03/2016 - 07/2016)</h3>
+<ul>
+<li>On board new applications to the build system</li>
+<li>Used IBM Ubuild and Udeploy tool to build and deploy artifacts to different environments</li>
+<li>Trigger various build tools such as MSBuild, Maven, and via Ubuild</li>
+<li>Setup up different build configurations required to onboard the different apps</li>
+<li>Setup deployment configurations to deploy to different environments</li>
+<li>Accessed the source code from the various repositories such as SVN, Clear Case, RTC and Perforce and build the code via the Ubuild tool</li>
+<li>Checked the TFS server for the right paths and make changes to the build configuration in Ubuild to ensure proper running of builds and secondary processes</li>
+<li>Setup Sonar scan tests and configured any secondary build processes as needed</li>
+<li>Use the Urbancode release tool as needed</li>
+</ul>
+<h3 id="t-mobile-contract-clouddevops-engineer-062015---112015">T-Mobile (Contract) (Cloud/Devops Engineer, 06/2015 - 11/2015)</h3>
+<ul>
+<li>Performed a comparison study of the major configuration management tools</li>
+<li>Performed detailed analysis of use cases for Chef, Puppet, Salt and Ansible</li>
+<li>Provisioned instances in EC2 via console as well as cloud formation</li>
+<li>Automated puppet master and client installation via user data scripts</li>
+<li>Customized puppet manifests and modules for Apache, Cassandra and AEM</li>
+<li>Created Architecture diagrams for Puppet Servers, agents and VPC distribution</li>
+<li>Lead Off-shore team to assist with provisioning projects</li>
+<li>Created Runbooks for POC and various environments creation</li>
+<li>Looked into Docker containers for the app infrastructure</li>
+<li>Researched Ansible to maintain the cloud infrastructure</li>
+</ul>
+<h3 id="microsoft-contract-build-facilitatordevops-engineer-032015---072016">Microsoft (Contract) (Build Facilitator/DevOps engineer, 03/2015 - 07/2016)</h3>
+<ul>
+<li>Responsible for managing over all SCM tasks and build infrastructure for Microsoft Azure Cloud services Api Apps team</li>
+<li>Performed merges and rebases in Git from Dev branch to Integration/Origin branch</li>
+<li>Worked with developers to run various XUnit tests.</li>
+<li>Run the static analysis tools like styleCop on the code to ensure the development is in compliance</li>
+<li>Wrote MSBuild scripts to build the cs projects.</li>
+<li>Setup githooks for post-commit build triggers</li>
+<li>Setup Jenkins to perform nightly builds as well as polled the git repo for changes</li>
+<li>Used Power Shell to write test scripts to run xnit tests which was invoked by Jenkins through a batch script.</li>
+</ul>
+<h3 id="ameresco-contract-build--integration-engineer-112014---022015">Ameresco (Contract) (Build &amp; Integration Engineer, 11/2014 - 02/2015)</h3>
+<ul>
+<li>Created version control Labels, and branches</li>
+<li>Performed merges and Integration in Perforce from Dev branch to Integration / release branch.</li>
+<li>Worked with developers to run various XUnit tests.</li>
+<li>Run the static analysis tools like styleCop on the code to ensure the development is in compliance</li>
+<li>Used Power Shell to communicate to the Windows Phone and for collecting logs.</li>
+<li>Compile the Simulator project using MSBuild and conducted sanity tests.</li>
+</ul>
+<h3 id="ladwp-full-time-scm-analyst-072007---112014">LADWP (Full-time) (SCM Analyst, 07/2007 - 11/2014)</h3>
+<ul>
+<li>Involved in System Test and Integration test for various internal projects.</li>
+<li>Created Builds and deployed builds to different environments based on requests.</li>
+<li>Maintained Dev/QA application environments to ensure all business rules, print logic and compliance issues are well-managed and documented prior to pushing to production.</li>
+<li>Linked and manipulated the databases, to fill in data, minimizing user error</li>
+<li>Executed SQL to modify the data in the tables for the various projects</li>
+</ul>
+
+</body>
+</html>
